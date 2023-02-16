@@ -1,0 +1,194 @@
+* {
+    background: #010134;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+
+main {
+    display: flex;
+    margin-bottom: 5em;
+    margin-left: 5em;
+
+}
+
+.contenedor {
+    margin-left: 0em;
+    width: 650px;
+    height: 650px;
+    padding: 1px;
+}
+
+.panelRigth {
+    background: #b17ae7;
+    background-image: url("images/figurePerson.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    color: #3d0a71;
+    border-radius: 22px;
+    margin-left: 65%;
+    margin-top: 15%;
+    width: 160%;
+    font-size: 30px;
+
+    padding: 10%;
+    display: inline-block;
+    text-align: justify;
+    line-height: 38px;
+    border-right: 2.5 solid violet;
+    cursor: infinite .5s 
+}
+    
+
+::placeholder {
+    color: #3d0a71;
+}
+
+.panelRigth:focus {
+    outline: none;
+}
+
+.encabezado {
+    width: 94%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 1em;
+
+    background: #010134;
+}
+
+
+.informacion {
+    color: rgba(28, 248, 24, 0.521);
+    font-size: 22px;
+    height: 2px;
+}
+
+.button {
+    position: relative;
+    margin-top: 5px;
+}
+
+.btn-encriptar {
+    background-color: #3d0a71;
+    border: #861eee solid 3px;
+    border-radius: 22px;
+    color: white;
+    cursor: pointer;
+    height: 65px;
+    margin-left: 20px;
+    width: 250px;
+
+}
+
+.btn-desencriptar {
+    background-color: #b88de4;
+    border: #3d0a71 solid 3px;
+    border-radius: 22px;
+    color: #3d0a71;
+    cursor: pointer;
+    height: 65px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.logo {
+    margin-top: 1em;
+    margin-left: 50px;
+    margin-bottom: 1em;
+    width: 6%;
+    display: flex;
+    position: relative;
+
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+
+    color: rgb(255, 255, 255);
+}
+
+.title2 {
+    font-weight: bold;
+    font-size: medium;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    color: rgb(157, 177, 255);
+}
+
+.text-input {
+    color: #6411b7;
+    margin-top: 30px;
+    width: 80%;
+    height: 90%;
+    border-radius: 22px;
+    font-size: 30px;
+    border: none;
+    text-decoration: wavy;
+    text-transform: lowercase;
+    padding-top: 5%;
+}
+
+::placeholder {
+    color: #2d2de3;
+}
+
+.text-input:focus {
+    outline: none;
+}
+
+
+.copiar {
+    background-color: #ffffff;
+    border: #3d0a71 solid 3px;
+    border-radius: 22px;
+    color: #861eee;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 320px;
+    margin-top: 3px;
+    position: absolute;
+    width: 200px;
+
+    display: none;
+}
+
+.copyright {
+    background-color: #22053f;
+    width: 98%;
+    background-image: url("images/felixcat.png");
+    background-repeat: no-repeat;
+    background-size: 9%;
+    background-position: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: aliceblue;
+    padding-bottom: 12em;
+    padding-top: 1em;
+}
+
+.footer {
+    background-color: #22053f;
+    display: flex;
+}
+
+.division {
+    background-color: #3d0a71;
+    width: 98%;
+    height: 20%;
+    margin-left: 20px;
+}
